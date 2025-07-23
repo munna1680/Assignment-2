@@ -1,0 +1,108 @@
+
+/* fonts */
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* font color */
+.hc-ash{
+    color: rgba(137, 135, 161, 1)
+}
+.orange{
+    color: rgba(233, 90, 8, 1);
+}
+/* shared class */
+.display-flex{
+    display: flex;
+}
+
+/* header section */
+.navbar{
+    justify-content: space-between;
+    margin: 0 150px;
+    margin-top: 30px;
+    align-items: center;
+    color: black;
+}
+.navbar div img{
+    margin-right: 10px;
+}
+.navbar div .cart-last{
+    margin-bottom: 3px;
+}
+.h-buttons li{
+    list-style: none;
+}
+
+.h-buttons a{
+    text-decoration: none;
+}
+
+.header-button{
+    margin-left: 48px;
+}
+.cart-img{
+    align-items: center;
+}
+
+/* header part */
+.header-main{
+    margin: 0 150px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title{
+    margin-top: none;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.header-body{
+    margin-top: 282px;
+}
+.header-discussion{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.header-head{
+    margin-top: 13px;
+}
+.header-image{
+    height: 355px;
+    width: 570px;
+    margin-top: 247px;
+}
+
+
+/* responsive for mobile
+@media screen and (max-width: 576px) {
+    .navbar{
+        margin: 0 16px;
+    }
+    .header-main{
+        display: grid;
+        grid-column: inherit;
+        margin: 0;
+    }
+    .header-image{
+        width: 100%;
+        margin: 0;
+    }
+    .home,
+    .shop,
+    .about{
+        display: none;
+    }
+} */
