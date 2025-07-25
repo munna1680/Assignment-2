@@ -341,9 +341,7 @@
     left: 20px;
     padding: 8px 16px;
     color: white;
-    /* text-decoration: none; */
     font-weight: 500;
-    /* font-size: 16px; */
     border-radius: 4px;
 }
 
@@ -356,8 +354,81 @@
     position: relative;
 }
 
+/* last section */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
+.last-bg {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    margin-bottom: 80px;
+    padding: 0;
+    margin-bottom: 5px;
+}
 
+.bg-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    object-fit: cover;
+}
+
+.news {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.bg-head {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+}
+
+.btn2 {
+    background-color: #E95A08;
+    border: none;
+    color: white;
+    padding: 19px 47px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.email {
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 55px;
+    width: 640px;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
 
 
 /* Responsive */
@@ -478,9 +549,6 @@
         margin: 0 16px;
     }
 
-    /* .store-body img{
-        width: 100%;
-    } */
     .store-body {
         flex-direction: column;
         margin-bottom: 0;
@@ -576,5 +644,53 @@
 
     .br {
         display: none;
+    }
+
+
+
+    /* last section */
+    .last-bg {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .bg-head {
+        font-size: 26px;
+
+    }
+
+    .newsletter {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .email {
+        height: 50px;
+        width: 210px;
+    }
+
+    .btn2 {
+        height: 50px;
+        width: 100px;
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .bg-img {
+        height: 350px;
+        width: 100vw;
+        display: block;
+        object-fit: cover;
+    }
+
+    .news {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
     }
 }
