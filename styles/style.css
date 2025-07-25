@@ -219,7 +219,7 @@
 .store-li {
     font-size: 22px;
     font-weight: 400;
-    width: 500px;
+    width: 530px;
 }
 
 .store-li>li {
@@ -568,7 +568,7 @@ body {
     }
 
     .plant-description {
-        padding: 0 20px;
+        padding: 0 0;
         font-size: 16px;
         margin: 0 auto;
         text-align: center;
@@ -637,11 +637,13 @@ body {
         font-weight: 600;
         margin: none;
     }
-
+    .store-description{
+        max-width: 380px;
+    }
     .store-li>li {
         font-size: 14px;
         font-weight: 400;
-        width: 370px;
+        width: 320px;
         margin: 0 16px;
         margin-bottom: 16px;
     }
@@ -701,7 +703,7 @@ body {
         font-size: 24px;
         font-weight: bold;
         z-index: 2;
-        margin: 50px 50px;
+        margin: 50px 40px;
         text-align: center;
     }
 
